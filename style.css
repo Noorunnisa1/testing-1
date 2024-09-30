@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.myheading{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 40px;
+}
+.box{
+    background-color: darkcyan;
+    width: 40%;
+    font-size: 20px;
+    margin-bottom:20px;
+    margin-top: 40px;
+    margin-left: 60px;
+    padding:50px 40px 60px 20px; 
+}
+.box1{
+    background-color: blueviolet;
+    width: 40%;
+    font-size: 30px;
+    margin: 100px 20px 60px 200px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    padding-left: 60px;
+    padding-right: 90px;
+}

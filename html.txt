@@ -1,0 +1,152 @@
+There are two types of tags in html
+1. pre define / closing tag  <tag></tag> 
+2  self close                <tag>  or <tag />   
+
+
+
+
+
+Form tags
+
+<form></form> ---- action="file_name.html"
+
+<label></label>
+<input>    ----- type="text/email/number/submit/radio/checkbox"
+<textarea></textarea>---- rows/cols
+<select></select>---- parent
+<option></option> ---- select child 
+
+group fileds 
+name="g"
+
+placeholder
+
+value="" 
+required=""
+
+readonly
+
+
+----------
+Table
+
+tags 
+-table --- border=""  cellpadding , cellspacing
+
+cell inner space ---->cellpadding 
+cell outer space ---->cellspacing
+
+-tr ----- table row
+
+-td ------ table data/table column   
+   colspan --- column merge
+   rowspan ---row merge
+-th-------  table heading/table column(bold and center)
+
+
+<center></center> 
+align="center/left/right"
+
+
+vs code
+increase indent  tab button 
+decrease indent  shift + tab
+--------------------------------------------------------------------------------------
+
+CSS ---> cascading style sheet
+
+1- inline     <tag style="designing.....">Hello World</tag>
+2- internal   <style></style>
+3- external
+
+
+
+<link>  /// external file / fav icon
+href(h refrence) 
+rel (relation [icon/stylesheet])
+
+
+there are three types of selector in css 
+
+* ----> universal
+. ----> class 
+# ----> id  unique  
+
+
+
+
+
+
+
+
+color:value;
+font-size
+
+property-name:Property-value;
+
+color:red;
+
+
+color /colour
+
+left---start 
+right--end
+center 
+justify
+
+
+font-size:pixels;
+
+1380px 
+
+
+uppercase 
+lowercase 
+capitalize
+
+italic      <i></i> or <em></em> 
+bold        <b></b> or <strong></strong> 
+underline   <u></u>  or <ins><ins>
+
+
+section tag(width 100% height auto)
+div (divide)
+
+
+section (one div width 100% )
+section (two div width 50%)
+section (three div width 33.33%)
+
+
+backgroundcolor 
+width  
+height
+
+
+px %
+100%
+50% 
+25%
+10%
+
+vertical to horizontal    display:flex; flex-wrap:wrap;
+horizontal to vertical    display:block;
+
+------------------------------------------
+margin ----- outer spacing
+padding ---- inner spacing
+
+
+margin:one value;---- each side 
+margin-top/bottom/left/right :10; for only one side
+
+
+margin:firstvalue secondValue;
+margin:top right bottom left;
+----------------------------------------
+comments 
+
+html   <!-- asasasas  --> 
+css    /*   */ 
+
+ctrl + /
